@@ -56,7 +56,7 @@ class Bookshelf():
         for element in books:
             if type(element) == Book:
                 self.book_list.append(element)
-                
+
     def books_by_author(self, author):
         if not self.book_list:      #if list leer = false; not ändert boolean von true to false
             return []
@@ -76,3 +76,4 @@ class Bookshelf():
 
     def clear_shelf(self):
         self.book_list.clear()
+
